@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%= erb :bootstrap%>
+        <title>로또번호 추천 서비스</title>
+    </head>
+    <body>
+        <%= erb :nav %>
+        <p><%= @lotto %></p>
+        <p><%= @winner %> +보너스번호는 <%= @bonus %></p>
+        <p>당신은 <%= @you %></p>
+    </body>
+</html>
